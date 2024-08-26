@@ -1,0 +1,490 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    /* border: 2px solid red; */
+}
+
+.maincontainer{
+    height: auto;
+    width: 100%;
+}
+
+.navbar{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 150px;
+    padding-bottom: 25px;
+}
+.nav1{
+    width: 32%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+.nav1 img{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav2 ul{
+display: flex;
+list-style: none;
+font-size: .8em;
+font-weight: 600;
+
+}
+.nav2 ul li{
+    padding-inline: 9px;
+    padding-top: 40px;
+    padding-bottom: 8px;
+    &:hover{
+        background-color: red;
+        color: white;
+    }
+}
+
+#home{
+    background-color: red;
+    color: white;
+}
+
+.nav3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    padding-right: 20px;
+}
+
+.nav3 button{
+padding-inline: 7px;
+    height: 30px;
+}
+#btn{
+    margin-right: 5px;
+    border: 1px solid rgb(188, 185, 185);
+    background-color: transparent;
+}
+#btn1{
+    font-weight: 600;
+    font-size: .8em;
+    background-color: rgb(201, 197, 197);
+    border: none;
+    padding-inline: 10px;
+}
+#btn2{
+    font-weight: 600;
+    font-size: .8em;
+    background-color: red;
+    color: white;
+    border: none;
+    padding-inline: 10px;
+}
+.imgsec{
+    height: 300px;
+    width: 100%;
+}
+#bg1{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+#pencil{
+    position: relative;
+    z-index: 2;
+    top: -203px;
+    right: -370px;
+    width: 50%;
+}
+
+.imgsec span{
+    width: 50%;
+    display: flex;
+    position: relative;
+    z-index: 3;
+    top: -275px;
+    right: -480px;
+    color: gold;
+}
+
+.imgsec span h4{
+    font-size: 1.8em;
+    letter-spacing: 5px;
+}
+
+.imgsec span p{
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.mainblock{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 215px;
+    padding-top: 40px;
+    margin-bottom: 30px;
+}
+.left{
+    width: 45%;
+}
+.left h2{
+    font-size: 1.7em;
+    word-spacing: 5px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid red;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.left p{
+    padding-top: 10px;
+    font-size: 1em;
+    word-spacing: 11px;
+    line-height: 25px;
+}
+
+.left button{
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.btn{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding-top: 50px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.right span{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -270px;
+    z-index: 2;
+    color: white;
+}
+
+.right span i{
+    font-size: 1.2em;
+    display: none;
+}
+.right span p{
+    margin-right: 60px;
+}
+.right img{
+    display: none;
+}
+.right span{
+    display: none;
+}
+.right i{
+    display: none;
+}
+#i1{
+    margin-right: 35px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    border-radius: 50px;
+    width: 60%;
+    position: relative;
+    z-index: 1;
+}
+
+#i2{
+    font-size: 3em;
+    position: relative;
+    z-index: 3;
+    top: -210px;
+}
+.maincontent{
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+.left1{
+    width: 50%;
+    background-color: rgb(235, 236, 239);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 40px;
+}
+.img3{
+    width: 75%;
+    background-color: rgb(235, 236, 239);
+    padding: 15px;
+    position: relative;
+    z-index: 1;
+    left: 140px;
+}
+
+.img3 img{
+    width: 100%;
+}
+.right1{
+    width: 50%;
+    background-color: rgb(237,27,36);
+    padding-block: 50px;
+    padding-inline: 95px;
+}
+
+.right1 p{
+    color: white;
+    margin-bottom: 70px;
+    padding-right: 80px;
+    line-height: 25px;
+}
+.right1 button{
+    width: 120px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    font-size: 1em;
+}
+
+.right1 img{
+    width: 50%;
+    margin-bottom: 10px;
+}
+.maincontent2{
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+.right2{
+    width: 50%;
+    background-color: rgb(235, 236, 239);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 40px;
+}
+
+.left2{
+    width: 50%;
+    background-color: rgb(2,158,173);
+    padding-block: 50px;
+    padding-left: 230px;
+}
+
+.left2 p{
+    color: white;
+    margin-bottom: 50px;
+    padding-right: 80px;
+    line-height: 25px;
+}
+.left2 button{
+    width: 120px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    font-size: 1em;
+}
+
+.left2 img{
+    width: 50%;
+    margin-bottom: 10px;
+}
+.img4{
+    width: 75%;
+    background-color: rgb(235, 236, 239);
+    padding: 15px;
+    position: relative;
+    z-index: 1;
+    left: -150px;
+}
+
+.img4 img{
+    width: 100%;
+}
+
+#p2{
+    padding-right: 120px;
+}
+em{
+    font-style: normal;
+}
+
+.end{
+    padding: 22px;
+    background-color: rgb(235, 236, 239);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.end em{
+    color: red;
+}
+
+.pos img{
+    position: fixed;
+    right: 0px;
+    bottom: 200px;
+
+}
+
+#navbar2{
+    display: none;
+}
+
+.nav3 h4{
+    display: none;
+}
+
+@media (max-width:768px) {
+
+    .navbar{
+        padding-inline: 20px;
+        padding-bottom: 0;
+    }
+    .nav1 img{
+        width: 270px;
+    }
+    .nav2{
+        display: none;
+    }
+    #btn{
+        display: none;
+    }
+    #btn1{
+        display: none;
+    }
+    #btn2{
+        display: none;
+    }
+    .nav3 h4{
+        display: inline;
+        align-items: center;
+        font-size: 1.4em;
+    }
+    #navbar2{
+        display: inline;
+    }
+    
+    #navbar2 #btn{
+        display: inline;
+    }
+    #navbar2 #btn1{
+        display: inline;
+    }
+    #navbar2 #btn2{
+        display: inline;
+    }
+
+    #navbar2 .nav3{
+        justify-content: end;
+    }
+    #pencil{
+        position: relative;
+        z-index: 2;
+        top: -170px;
+        right: -170px;
+        width: 50%;
+    }
+    
+    .imgsec span{
+        width: 50%;
+        display: flex;
+        position: relative;
+        z-index: 3;
+        top: -205px;
+        right: -210px;
+        color: gold;
+    }
+
+    .mainblock{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding-inline: 10px;
+        padding-top: 40px;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .maincontent{
+        flex-direction: column;
+    }
+    .left1{
+        width: 100%;
+        background-color: rgb(237,27,36);
+        padding-top: 20px;
+    }
+    .right1{
+        width: 100%;
+        padding-block: 0;
+        padding-bottom: 20px;
+    }
+    .img3{
+        width: 75%;
+        background-color: rgb(235, 236, 239);
+        padding: 15px;
+        position: relative;
+        z-index: 1;
+        left: 90px;
+    }
+    .left2{
+        width: 100%;
+        padding-block: 0;
+        padding-top: 20px;
+    }
+    .right2{
+        width: 100%;
+        padding-bottom: 20px;
+        background-color: rgb(2,158,173);
+    }
+    .img4{
+        width: 75%;
+        background-color: rgb(235, 236, 239);
+        padding: 15px;
+        position: relative;
+        z-index: 1;
+        left: -90px;
+    }
+
+    .imgsec span h4{
+        font-size: .8em;
+        letter-spacing: 5px;
+    }
+    
+    .imgsec span p{
+        font-size: .5em;
+        display: flex;
+        align-items: center;
+        margin-left: 0px;
+    }
+}
